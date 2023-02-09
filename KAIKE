@@ -1,0 +1,30 @@
+import javax.swing.JOptionPane;
+public class Newclasse {
+    
+    public static void main( String[] args){
+        
+        String firstNumber = 
+                JOptionPane.showInputDialog("insira o Kg");
+        String secondNumber =
+                JOptionPane.showInputDialog(" insira a altura");
+        
+      
+       
+        double Number1 = Integer.parseInt(firstNumber);
+        double  Number2 = Integer.parseInt(secondNumber);
+        double imc= Number1 / (Number2* Number2);
+        
+       
+        if(operador.equals("*")) { 
+            double multipli = Number1 / (Number2*Number2);
+        JOptionPane.showMessageDialog(null," a multiplicação é "+ multipli,
+                "multiplicação dos dois inteiros",JOptionPane.INFORMATION_MESSAGE);
+        
+       JOptionPane.showInputDialog("seu imc  :" );imc
+            
+  
+} 
+     
+            
+        }
+    }
